@@ -12,7 +12,7 @@ header{
 
 nav{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .link{
@@ -27,4 +27,42 @@ div>a{
 
 #logo{
     height: 4vh;
+}
+/* sezione principale---------------------------------------- */
+main{
+    display: flex;
+    justify-content: center;
+}
+.row-photo{
+    display: flex;
+    width: 700px;
+    height: 500px;
+}
+
+.model-one{
+    background-image: url(../img/1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 33.3%;
+}
+
+.model-two{
+    background-image:url(../img/2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 33.3%;
+
+
+}
+
+.model-three{
+    background-image:url(../img/3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 33.3%;
+
+
 }
