@@ -50,17 +50,17 @@ main{
 .model{
     border: 1px dashed black;
     height: 30vh;
-    width: 30%;
+    width: calc(100% / 3 - 5px);
 
 
 }
 
 .photo-bg{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     border: 1px dashed black;
-    height: 41vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     align-items: end;
@@ -109,6 +109,29 @@ main{
     text-decoration: line-through;
     color: black;
 }
+
+
+/* footer style--------------------------- */
+
+footer{
+    min-height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 25px;
+}
+
+footer>div>p{
+    color: white;
+    font-weight: bold;
+}
+
+footer a{
+    font-weight: lighter;
+}
+
 
 
 
